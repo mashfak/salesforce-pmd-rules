@@ -8,6 +8,13 @@
     <artifactId>pmd-apex</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
+    <properties>
+        <repoId>****</repoId>
+        <repoUrl>****</repoUrl>
+        <snapshotsRepoId>****</snapshotsRepoId>
+        <snapshotsRepoUrl>****</snapshotsRepoUrl>
+    </properties>
+
     <scm>
         <connection>scm:git:https://github.com/CopadoSolutions/salesforce-pmd-rules.git</connection>
         <developerConnection>scm:git:https://github.com/CopadoSolutions/salesforce-pmd-rules.git</developerConnection>
@@ -22,5 +29,16 @@
             <version>5.8.1</version>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>${snapshotsRepoId}</id>
+            <url>${snapshotsRepoUrl}</url>
+        </snapshotRepository>
+        <repository>
+            <id>${repoId}</id>
+            <url>${repoUrl}</url>
+        </repository>
+    </distributionManagement>
 
 </project>
