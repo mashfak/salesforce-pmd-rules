@@ -13,7 +13,7 @@ This repository contains custom rules developed by Copado customers to extend Sa
 Clone this repository and configure the project as a Maven project either importing it to your preferred IDE or using the Maven command line interface. 
 
 ### Adding Custom Rules
-1. Fork this GitHub project and create a new branch out of master where the rule will be implemented. The naming convention for the branch is **rules/{company-name}**. Note that the master branch of the forked project must be up to date with the parent project before creating the new branch. If you are working with a previously forked project ensure master branch is up to date (Best practice is to remove the fork once the Pull Request is closed and create a new one for the next request)
+1. Fork this GitHub project and create a new branch out of master where the rule will be implemented. The naming convention for the branch is **rules/{company-name}**. Note that the master branch of the forked project must be up to date with the parent project before creating the new branch. If you are working with a previously forked project ensure master branch is up to date (best practice is to remove the fork once the Pull Request is closed and create a new one for the next request)
 
 2. Implement the rule java class directly in the **copado.pmd.rules** package. The java class should be named with the custom rule name (**Custom_Rule_Name.java**).
 
