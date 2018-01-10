@@ -17,7 +17,7 @@ Clone this respository and configure the project as maven project either importi
 
 2. Implement the rule java class directly in the **copado.pmd.rules** package
 
-3. Write test classes to cover the implemented rule code (in **test/java/copado.pmd.rules** package)
+3. Write test classes to cover the implemented rule code (in **test/java/copado.pmd.rules** package), the java class should be named with the Custom Rule name (**Custom_Rule_Name.java**)
 
 3. Update the README to add the new rule to the [All Custom Rules](#all-custom-rules) table
 
